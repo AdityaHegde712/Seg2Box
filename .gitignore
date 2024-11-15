@@ -1,0 +1,9 @@
+# Files
+*.ipynb
+test_cases.py
+*.xml
+
+# Folders
+output*
+*cache*
+wildfires-cems
