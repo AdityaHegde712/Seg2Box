@@ -225,7 +225,7 @@ if __name__ == "__main__":
     parser.add_argument("--output-dir", type=str, default="bbox_dataset", help="Output directory for the drawn images and generated labels.")
     parser.add_argument("--save-mask", action="store_true", help="Save the mask files in the output directory.")
     parser.add_argument("--iou", type=float, default=0.2, help="IOU threshold for merging overlapping boxes.")
-    parser.add_argument("--selected-bands", type=int, nargs="+", default=[3, 2, 1], help="Selected bands for the visualized images.")  # Select RGB bands by default as per Sentinel-2 imagery
+    parser.add_argument("--selected-bands", type=int, nargs="+", default=[4, 3, 2], help="Selected bands for the visualized images.")  # Select RGB bands by default as per Sentinel-2 imagery
     parser.add_argument("--verbose", "-v", type=int, default=0, help="Verbosity level for the script, choose between 0 and 1. Choosing 1 will print intermediary visualisations for every bbox removal level. Intended for debugging purposes. Choosing 0 will only visualise the final bboxes and save the images.")
     args = parser.parse_args()
     dict_args = vars(args)
