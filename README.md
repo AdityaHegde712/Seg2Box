@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/888979325.svg)](https://doi.org/10.5281/zenodo.14169702)
+
 # Segmentation-to-Bounding Box Converter
 
 ## Description
